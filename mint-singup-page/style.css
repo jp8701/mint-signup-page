@@ -1,0 +1,98 @@
+:root {
+  --highlight-color: #0077C5;
+  --primary-text-color: #4c4c4c;
+  --secondary-text-color: #404040;
+  --footer-text-color: #505050;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eceef1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+a { 
+  text-decoration: none;
+  color: var(--highlight-color)
+}
+
+/* Utility class */
+.mg-right {
+  margin-right: 0.50rem;
+}
+
+.mg-right1 {
+  margin-right: 1rem;
+}
+/* Navigation */
+#nav-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 2rem 0 0;
+}
+
+#nav-container .nav-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 0.75rem;
+  line-height: 1.5;
+  color: #505050;
+}
+
+#nav-container .nav-button button {
+  background: var(--highlight-color);
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.60rem 1rem;
+  border-radius: 5px;
+}
+
+/* Header Section */
+#header-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#header-container .main-logo img {
+  width: 200px;
+}
+
+#header-container .other-logo img {
+  width: 20px;
+}
+
+#header-container .other-logo {
+  display: flex;
+  justify-content: center;
+}
+
+#header-container .other-logo div {
+  padding: 0.50rem;
+  justify-items: center;
+  background: yellow;
+}
+
+#header-container .other-logo a {
+  color: #B8B9BB;
+  font-size: 20px;
+  /* text-align: center; */
+  font-weight: normal;
+}
+
+#signup-container {
+  background: #fff;
+  border: 1px solid #c7c7c7;
+  width: 380px;
+  border-radius: 3px;
+  margin: 0 auto 0 auto;
+  padding: 30px;
+}

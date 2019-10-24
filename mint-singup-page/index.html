@@ -15,7 +15,7 @@
       <p><a href="#">I forgot my User ID or Password</a></p>
     </div>
     <div class="nav-button">
-      <button><i class="fas fa-lock mg-right"></i>Sign In</button>
+      <button><i class="fas fa-lock mg-right"></i> Sign In</button>
     </div>
   </nav>
 
@@ -43,17 +43,52 @@
     <div id="signup-container">
       <div class="signup-header">
         <h1>Create an Intuit Account</h1>
+        <h2>One account for everything Intuit, including Mint</h2>
+        <a href="#">Learn More</a>
       </div>
-      <form action=""></form>
-      <div class="showcase-button"></div>
-      <div class="terms-and-conditions"></div>
-      <div class="privacy-policy"></div>
+      <form action="">
+        <fieldset>
+          <label for="email">Email address</label>
+          <input type="email" name="email">
+        </fieldset>
+        <fieldset>
+          <label for="phone">Phone (recommended)</label>
+          <input type="text" name="phone">
+          <p>Standard call, messaging or data rates may apply.</p>
+        </fieldset>
+        <fieldset>
+          <label for="password">Password</label>
+          <input type="password">
+        </fieldset>
+      </form>
+      <div class="showcase-button">
+        <button><i class="fas fa-lock mg-right"></i> Create Account</button>
+      </div>
+      <div class="terms-and-conditions">
+        <span>
+          By clicking Create account, you agree to our <br> <a href="#">Terms</a>
+          and have read and acknowledge our <a href="#"> Privacy <br> Statement</a>.
+        </span>
+      </div>
     </div>
+    <div class="privacy-policy">
+        <span>
+          Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a>
+          and <a href="#">Terms of Use</a>.
+        </span>
+      </div>
   </main>
 
   <footer id="footer-container">
-    <ul class="policy-links"></ul>
-    <div class="copyright-info"></div>
+    <ul class="policy-links">
+      <li><a href="#">Legal</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Security</a></li>
+    </ul>
+    <div class="copyright-info">
+      <p> &copy; 2019 Intuit, Inc All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+      <p>Terms and conditions, features, support, pricing, and service options aubject to change without notice</p>
+    </div>
   </footer>
 </body>
 </html>
